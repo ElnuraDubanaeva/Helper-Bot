@@ -10,7 +10,7 @@ ADD requirements.txt opt/services/ggeek/
 COPY . /opt/services/ggeek/
 
 RUN pip install -r requirements.txt
-CMD ["python","bot/main.py"]
+CMD ["python","/opt/services/ggeek/main.py"]
 
 
 
