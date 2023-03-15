@@ -11,4 +11,4 @@ services:
     volumes:
       - /opt/services/ggeek
     env_file:
-      -./.env
+      - .env
