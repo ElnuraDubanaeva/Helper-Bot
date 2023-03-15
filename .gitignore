@@ -1,5 +1,6 @@
 venv
 .env
-/__pycache__
+__pycache__
+/__pycache__/
 toefl.sqlite3
 .idea
