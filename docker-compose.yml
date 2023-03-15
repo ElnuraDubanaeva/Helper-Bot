@@ -10,3 +10,5 @@ services:
       dockerfile: Dockerfile
     volumes:
       - /opt/services/ggeek
+    env_file:
+      -./.env
